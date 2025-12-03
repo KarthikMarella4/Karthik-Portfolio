@@ -9,7 +9,7 @@ import { PROJECTS, SKILLS, CERTIFICATIONS, INTERNSHIPS } from './constants';
 export default function Portfolio() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [scrollProgress, setScrollProgress] = useState(0);
+
   const [showBackToTop, setShowBackToTop] = useState(false);
 
   // Scroll listener for navbar styling and progress bar
@@ -21,11 +21,6 @@ export default function Portfolio() {
       // Back to top button visibility
       setShowBackToTop(window.scrollY > 400);
 
-      // Scroll Progress calculation
-      const totalScroll = document.documentElement.scrollTop;
-      const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      const scroll = `${totalScroll / windowHeight}`;
-      setScrollProgress(Number(scroll));
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -42,11 +37,6 @@ export default function Portfolio() {
   return (
     <div className="min-h-screen bg-[#F3F3F3] text-black font-sans selection:bg-orange-500 selection:text-white overflow-x-hidden relative">
       
-      {/* Scroll Progress Bar */}
-      <div 
-        className="fixed top-0 left-0 h-1.5 bg-orange-600 z-[60] transition-all duration-150 ease-out origin-left"
-        style={{ transform: `scaleX(${scrollProgress})`, width: '100%' }}
-      />
 
       {/* Visual Enhancements */}
       <div className="fixed inset-0 pointer-events-none z-[5] opacity-[0.03] mix-blend-overlay" 
