@@ -27,7 +27,7 @@ export const SKILLS: Skill[] = [
   { id: 1, title: "GenAI", detail: "LangChain / RAG / Prompt Engineering / ChromaDB " },
   { id: 2, title: "Cloud & DevOps", detail: "AWS / Azure / Docker / Jenkins / GitHub Actions / Prometheus / Grafana" },
   { id: 3, title: "Backend & API", detail: "Python / FastAPI / Flask / Django / SQL" },
-  { id: 4, title: "Tools & Platforms", detail: "NumPy / Pandas / Git / MLflow / Airflow / n8n / ETL / DVC" },
+  { id: 4, title: "Tools & Platforms", detail: "NumPy / Pandas / Git / MLflow / Airflow / Networking / n8n / ETL / DVC" },
 ];
 
 export const CERTIFICATIONS: Certification[] = [
@@ -55,6 +55,20 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "Oracle",
     link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=F0C2C09086512FDD784385B2D789BBF18DA614C37554D70D32A635DC4C5A8599"
   },
+  { 
+    id: 5, 
+    title: "GenAI Foundations", 
+    issuer: "DELL",
+    link: "https://www.credly.com/badges/7c3903ee-9a40-4424-8e97-8d059d66c6a5/linked_in_profile"
+  },
+  { 
+    id: 6, 
+    title: "Network Security Practitioner", 
+    issuer: "The SecOps Group",
+    link: "https://candidate.speedexam.net/certificate.aspx?SSTATE=am4131EniU8ntjp4bO5mXfyvzSq+l58L6lno0fcXj53woYEGqy9c5tQwvutnR8kaLohg0Qw0GwCFk2anMX+b2jxLfqlopiim5HLYruPv758="
+  },
+
+
 ];
 
 export const INTERNSHIPS: Internship[] = [
