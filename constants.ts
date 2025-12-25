@@ -14,12 +14,12 @@ export const PROJECTS: Project[] = [
   {
     id: 2,
     title: "EventSync",
-    role: "Prompt Engineering",
+    role: "Vibe Coding",
     year: "2025",
-    image: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&q=80&w=800",
+    image: "/images/event-sync.png",
     category: "Progressive Web App",
     description: "EventSync is a progressive web app (PWA) built to simplify how friends and families plan, manage, and experience events together. The platform allows users to effortlessly create and join events, coordinate details, and share memories through collaborative photo galleries in real time.",
-    link: "https://eventsyncaddevent.netlify.app/"
+    link: "https://eventssync.netlify.app/"
   }
 ];
 
