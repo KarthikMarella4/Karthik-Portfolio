@@ -6,7 +6,7 @@ export const PROJECTS: Project[] = [
     title: "VisionIQ -GLAUCOMA DETECTION",
     role: "Deep Learning",
     year: "2024",
-    image: "https://images.pexels.com/photos/5766072/pexels-photo-5766072.jpeg",
+    image: "/images/VisionIQ.png",
     category: "Medical AI",
     description: "Automated diagnosis system utilizing Convolutional Neural Networks (CNNs) to detect glaucoma from retinal fundus images with high accuracy.",
     link: "https://visioniq-vecn.onrender.com"
