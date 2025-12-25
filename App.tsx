@@ -166,7 +166,6 @@ export default function Portfolio() {
               <FadeIn key={project.id} delay={index * 100}>
                 <a href={project.link} target="_blank" rel="noopener noreferrer" className="group block cursor-pointer">
                   <div className="relative overflow-hidden aspect-[16/9] mb-6 bg-gray-200 border-2 border-transparent group-hover:border-black transition-all">
-                    <div className="absolute inset-0 bg-orange-600 mix-blend-multiply opacity-0 group-hover:opacity-20 transition-opacity duration-500 z-10"></div>
                     <img
                       src={project.image}
                       alt={project.title}
